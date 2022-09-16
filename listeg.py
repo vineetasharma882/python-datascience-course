@@ -1,0 +1,11 @@
+movies=['Sholy','baghban','RRR','DDLJ','Ironman','Inception','kungfupanda','gajni','rabnebnadijodi']
+print(len(movies))
+print(movies)
+movies.sort()
+print(movies)
+movies.reverse()
+print('fist movie',movies[0])
+print('last movie',movies[-1])
+print('first 3 movies',movies[:3])
+print('all movies except first 3',movies[3:])
+print('movies with even indexs',movies[::2])
