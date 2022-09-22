@@ -8,6 +8,7 @@ print('2 occurred',x_two,'times')
 print('3 occurred',x_three,'times')
 print('4 occurred',x_four,'times')
 
+# extend
 y=[12,13,41,65]
 z=[66,77,432]
 print('x addng y')
@@ -17,6 +18,7 @@ print('x addng z')
 x.extend(z)
 print(x)
 
+# pop
 xyz=x+y+z
 print(xyz)
 a=['appe','mango','banana','elaich']
