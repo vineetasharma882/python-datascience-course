@@ -41,9 +41,17 @@ print(" ".join(words))
 
 #ques no 9
 print("print multiline String \n using single print")
+#or
+data=""
+while True:
+    line=input()
+    if not line:
+        data+=line+'\n'
+print(len(data),'chars')
 
 #ques no 10
-
+print("\\n")
+print(r'\n')
 
 #ques no 11
 c=15
